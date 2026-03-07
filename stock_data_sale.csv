@@ -1,0 +1,21 @@
+Transaction_ID,Date,Stock_Name,Sector,Transaction_Type,Quantity,Price_Per_Stock,City
+1001,05-01-2024,TCS,IT,Buy,50,3800,Mumbai
+1002,07-01-2024,Infosys,IT,Sell,30,1450,Pune
+1003,10-01-2024,RELIANCE,Energy,Buy,20,2500,Mumbai
+1004,12-01-2024,HDFC Bank,Banking,Buy,40,1650,Delhi
+1005,15-01-2024,ICICI Bank,Banking,Sell,25,950,Bangalore
+1006,18-01-2024,SBIN,Banking,Buy,60,600,Mumbai
+1007,02-02-2024,TCS,IT,Sell,20,3900,Chennai
+1008,05-02-2024,Infosys,IT,Buy,35,1500,Hyderabad
+1009,10-02-2024,RELIANCE,Energy,Sell,15,2550,Mumbai
+1010,15-02-2024,HDFC Bank,Banking,Sell,30,1700,Delhi
+1011,20-02-2024,ICICI Bank,Banking,Buy,50,920,Pune
+1012,01-03-2024,SBIN,Banking,Sell,40,620,Mumbai
+1013,05-03-2024,TCS,IT,Buy,45,4000,Bangalore
+1014,10-03-2024,Infosys,IT,Sell,25,1550,Chennai
+1015,15-03-2024,RELIANCE,Energy,Buy,30,2600,Hyderabad
+1016,20-03-2024,HDFC Bank,Banking,Buy,35,1750,Mumbai
+1017,01-04-2024,ICICI Bank,Banking,Sell,20,980,Delhi
+1018,05-04-2024,SBIN,Banking,Buy,70,610,Pune
+1019,10-04-2024,TCS,IT,Sell,15,4050,Mumbai
+1020,15-04-2024,RELIANCE,Energy,Sell,25,2650,Bangalore
