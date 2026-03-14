@@ -1,0 +1,320 @@
+/* ═══════════════════════════════════════════════
+   StockPulse — Power BI Classic Theme
+   Font: Segoe UI (system), fallback Arial
+   Palette: Microsoft Power BI Light
+   ═══════════════════════════════════════════════ */
+
+/* ─── Reset & Base ─────────────────────────────── */
+html,
+body,
+[class*="css"] {
+    font-family: "Segoe UI", Calibri, Arial, sans-serif !important;
+    background-color: #F3F2F1 !important;
+    color: #201F1E !important;
+}
+
+/* Hide Streamlit chrome */
+#MainMenu,
+footer,
+header {
+    visibility: hidden;
+}
+
+[data-testid="collapsedControl"] {
+    display: none;
+}
+
+section[data-testid="stSidebar"] {
+    display: none !important;
+}
+
+/* Main container */
+.block-container {
+    padding: 0 2rem 2rem 2rem !important;
+    max-width: 1440px !important;
+    background-color: #F3F2F1 !important;
+}
+
+/* ─── Header Bar ────────────────────────────────── */
+.pbi-header {
+    background-color: #0078D4;
+    padding: 0 28px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -2rem 28px -2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+.header-brand {
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: -0.01em;
+    padding-right: 18px;
+}
+
+.header-divider {
+    width: 1px;
+    height: 22px;
+    background: rgba(255, 255, 255, 0.35);
+    margin-right: 18px;
+}
+
+.header-subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.85);
+    letter-spacing: 0.01em;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #6FCF97;
+    display: inline-block;
+    box-shadow: 0 0 0 2px rgba(111, 207, 151, 0.3);
+}
+
+.status-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.header-date {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 12px;
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* ─── KPI Cards ─────────────────────────────────── */
+.kpi-card {
+    background: #FFFFFF;
+    border: 1px solid #EDEBE9;
+    border-top: 3px solid #C8C6C4;
+    border-radius: 2px;
+    padding: 18px 20px 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    min-height: 100px;
+}
+
+.kpi-card.kpi-blue {
+    border-top-color: #0078D4;
+}
+
+.kpi-card.kpi-teal {
+    border-top-color: #2D7D9A;
+}
+
+.kpi-card.kpi-pos {
+    border-top-color: #107C10;
+}
+
+.kpi-card.kpi-neg {
+    border-top-color: #D13438;
+}
+
+.kpi-card.kpi-amber {
+    border-top-color: #FFB900;
+}
+
+.kpi-card.kpi-purple {
+    border-top-color: #8764B8;
+}
+
+.kpi-label {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #605E5C;
+    margin-bottom: 8px;
+}
+
+.kpi-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #201F1E;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.kpi-sub {
+    font-size: 11px;
+    color: #A19F9D;
+    font-weight: 400;
+}
+
+/* ─── Section Gap ───────────────────────────────── */
+.section-gap {
+    height: 20px;
+}
+
+/* ─── Chart Card ────────────────────────────────── */
+.chart-wrap {
+    background: #FFFFFF;
+    border: 1px solid #EDEBE9;
+    border-radius: 2px;
+    padding: 18px 20px 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.chart-title {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #605E5C;
+    border-bottom: 1px solid #EDEBE9;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+}
+
+/* ─── Progress Bars (Drill-Down) ────────────────── */
+.prog-row {
+    margin-bottom: 12px;
+}
+
+.prog-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.prog-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: #201F1E;
+}
+
+.prog-val {
+    font-size: 11px;
+    color: #605E5C;
+    font-weight: 400;
+}
+
+.prog-track {
+    background: #EDEBE9;
+    border-radius: 1px;
+    height: 6px;
+}
+
+.prog-fill {
+    height: 100%;
+    border-radius: 1px;
+    background: #0078D4;
+    transition: width 0.3s ease;
+}
+
+/* ─── Selectbox Styling ─────────────────────────── */
+div[data-baseweb="select"]>div {
+    background-color: #FFFFFF !important;
+    border: 1px solid #C8C6C4 !important;
+    border-radius: 2px !important;
+    font-size: 12px !important;
+    color: #201F1E !important;
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    box-shadow: none !important;
+}
+
+div[data-baseweb="select"]>div:focus-within {
+    border-color: #0078D4 !important;
+    box-shadow: 0 0 0 1px #0078D4 !important;
+}
+
+/* ─── Expander ──────────────────────────────────── */
+details[data-testid="stExpander"] {
+    background: #FFFFFF !important;
+    border: 1px solid #EDEBE9 !important;
+    border-radius: 2px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06) !important;
+    margin-bottom: 20px !important;
+}
+
+details[data-testid="stExpander"] summary {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.07em !important;
+    color: #605E5C !important;
+    padding: 14px 20px !important;
+}
+
+/* ─── DataFrame / Table ─────────────────────────── */
+.stDataFrame {
+    border: 1px solid #EDEBE9 !important;
+    border-radius: 2px !important;
+}
+
+.stDataFrame table {
+    font-family: "Segoe UI", Arial, sans-serif !important;
+}
+
+.stDataFrame thead th {
+    background-color: #F3F2F1 !important;
+    color: #605E5C !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.07em !important;
+    border-bottom: 2px solid #EDEBE9 !important;
+    padding: 10px 14px !important;
+}
+
+.stDataFrame tbody tr td {
+    color: #201F1E !important;
+    font-size: 12px !important;
+    padding: 8px 14px !important;
+    border-bottom: 1px solid #F3F2F1 !important;
+}
+
+.stDataFrame tbody tr:hover td {
+    background: #EFF6FC !important;
+}
+
+/* ─── Footer ────────────────────────────────────── */
+.pbi-footer {
+    text-align: center;
+    font-size: 10px;
+    color: #A19F9D;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    border-top: 1px solid #EDEBE9;
+    margin-top: 8px;
+}
+
+/* ─── Matplotlib canvas background ─────────────── */
+.stImage img,
+canvas {
+    background: #FFFFFF !important;
+}
+
+/* Remove Streamlit element padding overrides */
+div[data-testid="column"]>div {
+    padding: 0 6px !important;
+}
