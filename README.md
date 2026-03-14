@@ -1,7 +1,7 @@
 # StockPulse — Trading Analytics Dashboard
 - Check Live Dashboard - https://stocksanalysis-001.streamlit.app
 
-- A production-grade stock market analytics pipeline built with Python. Historical NSE trade data is ingested via Pandas, processed through a modular analysis layer, and surfaced in a fully interactive Streamlit dashboard — enabling real-time filtering, trend visualization, sector drill-downs, and exploratory analytics without writing a single line of frontend code.
+- A stock market analytics pipeline built with Python. Historical NSE trade data is ingested via Pandas, processed through a modular analysis layer, and surfaced in a fully interactive Streamlit dashboard — enabling real-time filtering, trend visualization, sector drill-downs, and exploratory analytics without writing a single line of frontend code.
 
 <br>
 
@@ -182,30 +182,4 @@ The dashboard expects a CSV with the following columns:
 
 ---
 
-## Contributing
-
-Contributions are welcome — whether it is a bug fix, new chart type, or data pipeline improvement.
-
-**Workflow**
-
-```bash
-# 1. Fork the repository on GitHub
-
-# 2. Clone your fork
-git clone https://github.com/your-username/Stocks_Analysis.git
-cd Stocks_Analysis
-
-# 3. Create a feature branch
-git checkout -b feature/your-feature-name
-
-# 4. Make your changes and commit
-git add .
-git commit -m "feat: add rolling 30-day moving average chart"
-
-# 5. Push your branch
-git push origin feature/your-feature-name
-
-# 6. Open a Pull Request on GitHub
-```
----
  
