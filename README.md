@@ -1,6 +1,7 @@
 # StockPulse — Trading Analytics Dashboard
+- Check Live Dashboard - https://stocksanalysis-001.streamlit.app
 
-> A production-grade stock market analytics pipeline built with Python. Historical NSE trade data is ingested via Pandas, processed through a modular analysis layer, and surfaced in a fully interactive Streamlit dashboard — enabling real-time filtering, trend visualization, sector drill-downs, and exploratory analytics without writing a single line of frontend code.
+- A production-grade stock market analytics pipeline built with Python. Historical NSE trade data is ingested via Pandas, processed through a modular analysis layer, and surfaced in a fully interactive Streamlit dashboard — enabling real-time filtering, trend visualization, sector drill-downs, and exploratory analytics without writing a single line of frontend code.
 
 <br>
 
@@ -13,8 +14,8 @@
 
 ---
 Dashboard
-![Dashboard](assests/Screenshot2026-03-14173037.png)
-![Dashboard](assests/Screenshot2026-03-14173012.png)
+![Dashboard](assests/dashboard_1.png)
+![Dashboard](assests/dashboard_2.png)
 
 
 
